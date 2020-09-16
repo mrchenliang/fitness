@@ -1,0 +1,55 @@
+
+.home-page {
+    font-family: Poppins;
+    background-color:white;
+    min-height: 100vh;
+    width: 100vw;
+}
+
+.home-intro {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.intro {
+    z-index: 10;
+}
+
+
+.name {
+    color: white;
+    font-family: Staatliches;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 200px;
+    line-height: 250px;
+    text-align: center;
+}
+
+.title {
+    color: #4C586F;
+    font-family: Thasadith;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 815px) {
+
+    .home-header {
+        height: 60vh;
+    }
+
+    .name {
+        line-height: 100px;
+        font-size: 100px;
+        margin: 8px 48px;
+    }
+
+    .title {
+        font-size: 18px;
+    }
+}
