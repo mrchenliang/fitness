@@ -1,6 +1,7 @@
 
 import React from 'react';
 import './landing.styles.css';
+import 'font-awesome/css/font-awesome.css';
 import icon from '../../assets/icon.png';
 
 const Landing = () => {

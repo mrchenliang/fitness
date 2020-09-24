@@ -6,7 +6,9 @@
 
 footer {
     font-size: 14px;
-    margin-bottom: 24px;
+    position: fixed;
+    bottom: 0;
+    left: calc(50% - 107.42px)
 }
 
 ul.Social-Icons {
@@ -33,7 +35,7 @@ ul.Social-Icons {
 
 .tooltiptext {
     visibility: hidden;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Poppins;
     position: absolute;
     font-size: 12px;
     padding: 4px 8px;
@@ -44,8 +46,9 @@ ul.Social-Icons {
     visibility: visible;
     display: inline-block;
     position:absolute;
-    bottom: 125%;
+    bottom: -105%;
     left:50%;
     transform:translateX(-50%);
     text-align: center;
+    background-color: white;
 }

@@ -1,3 +1,4 @@
+
 .landing-page {
     display: block;
     width: 100vw;
@@ -5,8 +6,15 @@
     background: url(../../assets/background.svg);
     background-size: cover;
     font-family: Poppins;
-
 }
+
+@media only screen and (max-width: 815px) {
+    .landing-page {
+        background: url(../../assets/background.svg) no-repeat center;
+        background-size: 800px;
+    }
+}
+
 
 .header {
     margin: auto;
@@ -14,6 +22,9 @@
     justify-content: center;
     align-items: center;
     color: black;
+    position: fixed;
+    top: 30%;
+    left: calc(50% - 128.6px);
 }
 
 .title {
@@ -21,6 +32,19 @@
 }
 
 .logo {
-    height: 50px;
-    width: 50px;
+    height: 100px;
+    width: 100px;
+}
+
+.Social-Icons {
+    color: #F92524
+}
+
+a {
+    text-decoration: none;
+    color: #F92524
+}
+
+p {
+    text-shadow: -1px -1px 0 #F92524, 1px -1px 0 #F92524 -1px 1px 0 #F92524, 1px 1px 0 #F92524;
 }
