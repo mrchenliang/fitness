@@ -27,6 +27,11 @@
     left: calc(50% - 128.6px);
 }
 
+.titles {
+    display: flex;
+    flex-direction: column;
+}
+
 .title {
     font-family: Poppins;
 }

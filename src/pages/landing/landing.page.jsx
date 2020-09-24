@@ -11,7 +11,10 @@ const Landing = () => {
     <div className="landing-page">
         <div className = "header">
           <img src={icon} className="logo" alt="logo" />
-          <span className = 'title'>FitBrit Fitness</span>
+          <div className = 'titles'>
+            <span className = 'title'>FitBrit Fitness</span>
+            <span className = 'subtitle'>Coming Winter 2020</span>
+          </div>
         </div>
         <div className = 'footer'>
           <ul className="Social-Icons">
