@@ -1,0 +1,26 @@
+.landing-page {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    background: url(../../assets/background.svg);
+    background-size: cover;
+    font-family: Poppins;
+
+}
+
+.header {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.title {
+    font-family: Poppins;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+}
