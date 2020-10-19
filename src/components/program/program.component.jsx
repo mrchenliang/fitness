@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './program.styles.css';
 import { BiDumbbell } from 'react-icons/bi';
+import { AiOutlineClose } from 'react-icons/ai';
 
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
@@ -16,14 +17,21 @@ class Program extends Component {
     };
 
     showPaypalButtons = ({program, amount}) => {
-        this.setState({ showPaypal: true});
+        this.setState({ showPaypal: !this.state.showPaypal});
         this.setState({ program: program });
         this.setState({ amount: amount });
     };
     render() {
         const { showPaypal } = this.state;
         if (showPaypal) {
-            return <PaypalButtons amount = {this.state.amount} program = {this.state.program}/>;
+            return (
+                <div>
+                    <div className ="close" onClick={() => this.showPaypalButtons({program: null, amount: null})}>
+                        <AiOutlineClose />
+                    </div>
+                    <PaypalButtons amount = {this.state.amount} program = {this.state.program}/>
+                </div>
+            )
         } else {
             return (
                 <div className='program-component' id = "program">
