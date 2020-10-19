@@ -1,20 +1,33 @@
 import React from 'react';
 import './navbar.styles.css';
+import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav';
+import AnchorLink from 'react-anchor-link-smooth-scroll'
+import icon from '../../assets/icon.png';
 
-const Navbar = () => {
 
+const CustomNavbar = () => {
     return (
-        <navbar className='navbar'> 
-            <div className = 'circle'></div>
-            <ul class="menu__list">
-                <li class="menu__list-item logo"><a class="menu__link logo" href="/home">FB Fitness</a></li>
-                <li class="menu__list-item"><a class="menu__link active" href="/home">Home</a></li>
-                <li class="menu__list-item"><a class="menu__link" href="/about">About</a></li>
-                <li class="menu__list-item"><a class="menu__link" href="/program">Program</a></li>
-                <li class="menu__list-item"><a class="menu__link contact" href="/contact">Contact Me</a></li>
-            </ul>
-        </navbar>
+        <Navbar collapseOnSelect expand="lg">
+            <Navbar.Brand className = "navLink" href="/">
+                <img
+                    src={icon}
+                    width="32"
+                    height="32"
+                    className="d-inline-block align-top"
+                    alt="Fitbrit Fitness logo"
+                />
+                <span>FitBrit Fitness</span>
+            </Navbar.Brand>
+            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+            <Navbar.Collapse id="responsive-navbar-nav">
+                <Nav className = "nav mr-auto">
+                    <Nav.Link className = "navLink" ><AnchorLink href="#about">About</AnchorLink></Nav.Link>
+                    <Nav.Link className = "navLink" ><AnchorLink href="#program">Program</AnchorLink></Nav.Link>
+                </Nav>
+            </Navbar.Collapse>
+        </Navbar>
     );
 };
 
-export default Navbar;
+export default CustomNavbar;

@@ -1,0 +1,52 @@
+
+.program-component {
+    margin: 24px 0;
+}
+.program-intro {
+    text-align: center;
+    font-size: 24px;
+}
+.program-cards {
+    display: flex;
+    justify-content: center;
+}
+.program-card {
+    border-radius: 5px;
+    border: grey 2px solid;
+    margin: 16px;
+    padding: 16px;
+}
+.program-card:hover {
+    border: #F92524 2px solid;
+    cursor: pointer;
+}
+
+.program-icon {
+    color: grey;
+    font-size: 160px;
+    display: flex;
+    justify-content: center;
+}
+
+.program-card:hover .program-icon{
+    color: #F92524;
+    transition: color 0.25s ease;
+}
+
+.btn-outline-dark:hover {
+    background-color: #F92524;
+    border: white 1px solid;
+
+}
+
+@media only screen and (max-width: 815px) {
+    .program-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-info {
+        display: flex;
+        flex-direction: column;
+    }
+}

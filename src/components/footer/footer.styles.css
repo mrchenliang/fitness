@@ -8,7 +8,7 @@ footer {
     font-size: 14px;
     position: fixed;
     bottom: 0;
-    left: calc(50% - 107.42px)
+    /* left: calc(50% - 107.42px) */
 }
 
 ul.Social-Icons {
@@ -16,8 +16,9 @@ ul.Social-Icons {
     width: 100vw;
     justify-content: center;
     list-style-type: none;
-    padding: 16px;
+    padding: 0;
     margin: 0;
+    color: #F92524;
 }
 
 
@@ -26,6 +27,7 @@ ul.Social-Icons {
     padding: 8px;
     margin: 16px 8px;
     transition: all .2s ease-in-out;
+    color: #F92524;
 }
 
 :hover.icon {
@@ -33,7 +35,7 @@ ul.Social-Icons {
     transform: scale(1.2);
 }
 
-.tooltiptext {
+.footertooltiptext {
     visibility: hidden;
     font-family: Poppins;
     position: absolute;
@@ -42,13 +44,18 @@ ul.Social-Icons {
     border-radius: 10%;
 }
 
-.tooltip:hover .tooltiptext {
+.footertooltip:hover .footertooltiptext {
     visibility: visible;
     display: inline-block;
     position:absolute;
-    bottom: -105%;
+    bottom: 105%;
     left:50%;
     transform:translateX(-50%);
     text-align: center;
     background-color: white;
+}
+
+.copyright {
+    text-align: center;
+    color: #F92524;
 }

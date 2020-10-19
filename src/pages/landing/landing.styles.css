@@ -41,13 +41,9 @@
     width: 100px;
 }
 
-.Social-Icons {
-    color: #F92524
-}
-
 a {
     text-decoration: none;
-    color: #F92524
+    color: #F92524 !important;
 }
 
 p {
