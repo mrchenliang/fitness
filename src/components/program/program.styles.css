@@ -52,12 +52,7 @@
         align-items: center;
     }
 
-    .about-info {
-        display: flex;
-        flex-direction: column;
-    }
-
     .close{ 
-        margin-left: 350px;
+        margin-left: 350px !important;
     }
 }
