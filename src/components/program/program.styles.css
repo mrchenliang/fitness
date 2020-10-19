@@ -56,4 +56,7 @@
         display: flex;
         flex-direction: column;
     }
+    .close{ 
+        margin-left: 350px;
+    }
 }
