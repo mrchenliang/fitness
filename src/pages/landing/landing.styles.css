@@ -42,8 +42,15 @@
 }
 
 a {
-    text-decoration: none;
     color: #F92524;
+}
+
+.subtitle a {
+    color: #F92524;
+}
+
+.subtitle a:hover {
+    color: #FF5857;
 }
 
 p {
