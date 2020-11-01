@@ -2,6 +2,11 @@
     z-index: 100;
     height: 100%;
     margin-bottom: 0;
+    background: url(../../assets/footer-background.svg);
+    background-repeat: no-repeat;
+    background-size: 3000px 1000px;
+    background-position: center;
+    background-position-y: -240px;
 }
 
 footer {
@@ -18,7 +23,8 @@ ul.Social-Icons {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    color: #F92524;
+    color: white;
+    padding-top: 24px;
 }
 
 
@@ -27,7 +33,7 @@ ul.Social-Icons {
     padding: 8px;
     margin: 16px 8px;
     transition: all .2s ease-in-out;
-    color: #F92524;
+    color: white;
     font-size: 24px !important;
 }
 
@@ -54,6 +60,8 @@ ul.Social-Icons {
     transform:translateX(-50%);
     text-align: center;
     background-color: white;
+    border-radius: 2px;
+    color: #F92524;
 }
 
 .copyright, .email {
@@ -61,22 +69,34 @@ ul.Social-Icons {
     margin-right: 12px;
     text-align: center;
     color: #F92524;
+    margin-bottom: 0;
+}
+
+.copyright {
+    padding-bottom: 1rem;
+    color: white;
 }
 
 .email {
     margin-bottom: 0;
 }
 
+.email a {
+    color: white;
+}
+
 .email a:hover {
-    color: #F92524;
+    color: #d8d8d8  ;
 }
 
 .copyright a {
-    color: #FF5857;
+    color: white;
 }
 .copyright a:hover {
-    color: #FF5857;
+    color: #d8d8d8;
 }
+/* #d8d8d8 */
+
 
 .email:hover {
     transform: scale(1.05);

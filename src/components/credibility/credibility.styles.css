@@ -1,17 +1,22 @@
 .credibility-component {
-    display: flex;
+    display: flex;    
     margin-bottom: 24px;
     padding-top: 86px;
 }
 .credibility-background {
     width: auto;
-    height: calc(70vh);
+    height: 100vh;
     object-fit: cover;
     transition: opacity 1s ease-in-out;
     display: flex;
     justify-content: center;
     position: relative; 
-    left: -36px;
+    left: -12px;
+    top: -48px;
+}
+
+.credibility-image {
+    height: 50vh;
 }
 
 .credibility-background:hover{

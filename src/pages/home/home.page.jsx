@@ -1,7 +1,7 @@
 
 import React from 'react';
 import './home.styles.css';
-// import 'font-awesome/css/font-awesome.css';
+import 'font-awesome/css/font-awesome.css';
 import CustomNavbar from '../../components/navbar/navbar.component'
 import Welcome from '../../components/welcome/welcome.component'
 import Credibility from '../../components/credibility/credibility.component'

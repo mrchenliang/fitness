@@ -41,22 +41,22 @@ class Program extends Component {
                     <div className = 'program-info'>
                         <div className="program-list">
                             <div className="program-list-item">
-                                <span role = 'img' aria-label = "personal fitness assessment">💪</span> <div className = 'program-list-title'>Personal fitness assessment</div>
-                            </div>
-                            <div className="program-list-item">
-                                <span role = 'img' aria-label = "body composite assessment">📋</span> <div className = 'program-list-title'>Body composition assessment</div>
-                            </div>
-                            <div className="program-list-item">
                                 <span role = 'img' aria-label = "detailed consultation">✅</span> <div className = 'program-list-title'>Detailed consultation</div>
                             </div>
                             <div className="program-list-item">
                                 <span role = 'img' aria-label = "individualized fitness plan">🏋️‍♀️</span> <div className = 'program-list-title'>Individualized fitness plan</div>
                             </div>
                             <div className="program-list-item">
-                                <span role = 'img' aria-label = "biweekly nutrition assessment and nutrition plan">🍔</span> <div className = 'program-list-title'>Biweekly nutrition assessment and nutrition plan</div>
+                                <span role = 'img' aria-label = "personal fitness assessment">💪</span> <div className = 'program-list-title'>Personal fitness assessment</div>
+                            </div>
+                            <div className="program-list-item">
+                                <span role = 'img' aria-label = "body composite assessment">📋</span> <div className = 'program-list-title'>Body composition assessment</div>
                             </div>
                             <div className="program-list-item">
                                 <span role = 'img' aria-label = "weekly progress check ins">📈</span> <div className = 'program-list-title'>Weekly progress check ins</div>
+                            </div>
+                            <div className="program-list-item">
+                                <span role = 'img' aria-label = "biweekly nutrition assessment and nutrition plan">🍔</span> <div className = 'program-list-title'>Biweekly nutrition assessment and nutrition plan</div>
                             </div>
                             <div className="program-list-item">
                                 <span role = 'img' aria-label = "unlimited contact for support and guidance with me">🏆</span> <div className = 'program-list-title'>Unlimited contact for support and guidance with me</div>
@@ -87,7 +87,7 @@ class Program extends Component {
                             <Card.Body>
                                 <Card.Title>Pro</Card.Title>
                                 <Card.Text>
-                                3 month of personalized training.
+                                3 months of personalized training.
                                 </Card.Text>
                                 <Card.Text className = "program-price">
                                 CAN $164.25 <span>$219.00</span>
@@ -102,7 +102,7 @@ class Program extends Component {
                             <Card.Body>
                                 <Card.Title>Elite</Card.Title>
                                 <Card.Text>
-                                6 month of personalized training.
+                                6 months of personalized training.
                                 </Card.Text>
                                 <Card.Text className = "program-price">
                                 CAN $299.25 <span>$399.00</span>

@@ -26,6 +26,7 @@
 
 .program-list-item {
     display: flex;
+    justify-content: center;
 }
 
 .program-list-title {
@@ -110,6 +111,10 @@
     .program-cards {
         flex-direction: column;
         align-items: center;
+    }
+    
+    .program-list-item {
+        justify-content: flex-start;
     }
 
     .close{ 

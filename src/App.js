@@ -4,7 +4,6 @@ import "./App.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Home from "./pages/home/home.page";
-import Landing from "./pages/landing/landing.page";
 
 class App extends React.Component {
 
@@ -13,8 +12,7 @@ class App extends React.Component {
       <div>
         <BrowserRouter> 
           <Switch>
-            <Route path="/home" component={Home} />
-            <Route path="/" component={Landing} />
+            <Route path="/" component={Home} />
           </Switch>
         </BrowserRouter>
       </div>

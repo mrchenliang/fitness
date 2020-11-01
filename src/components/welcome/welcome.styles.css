@@ -1,12 +1,12 @@
 .welcome-background {
     width: auto;
-    height: calc(70vh);
+    height: 85vh;
     object-fit: cover;
     transition: opacity 1s ease-in-out;
     display: flex;
     justify-content: center;
     position: relative; 
-    right: -36px;
+    right: -24px;
 }
 
 .welcome-background:hover{
