@@ -1,30 +1,31 @@
 {
   "files": {
-    "main.css": "/static/css/main.0fa1e270.chunk.css",
-    "main.js": "/static/js/main.1ffc96eb.chunk.js",
-    "main.js.map": "/static/js/main.1ffc96eb.chunk.js.map",
+    "main.css": "/static/css/main.d799e488.chunk.css",
+    "main.js": "/static/js/main.87409b96.chunk.js",
+    "main.js.map": "/static/js/main.87409b96.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4af47e90.js",
     "runtime-main.js.map": "/static/js/runtime-main.4af47e90.js.map",
     "static/css/2.c59bb63f.chunk.css": "/static/css/2.c59bb63f.chunk.css",
-    "static/js/2.858f7558.chunk.js": "/static/js/2.858f7558.chunk.js",
-    "static/js/2.858f7558.chunk.js.map": "/static/js/2.858f7558.chunk.js.map",
+    "static/js/2.5f6b292f.chunk.js": "/static/js/2.5f6b292f.chunk.js",
+    "static/js/2.5f6b292f.chunk.js.map": "/static/js/2.5f6b292f.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.e03255895dfac0e180abfe6da8513a22.js": "/precache-manifest.e03255895dfac0e180abfe6da8513a22.js",
+    "precache-manifest.afe61b57471bf5bfd7016cd83f22c10e.js": "/precache-manifest.afe61b57471bf5bfd7016cd83f22c10e.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.c59bb63f.chunk.css.map": "/static/css/2.c59bb63f.chunk.css.map",
-    "static/css/main.0fa1e270.chunk.css.map": "/static/css/main.0fa1e270.chunk.css.map",
-    "static/js/2.858f7558.chunk.js.LICENSE.txt": "/static/js/2.858f7558.chunk.js.LICENSE.txt",
+    "static/css/main.d799e488.chunk.css.map": "/static/css/main.d799e488.chunk.css.map",
+    "static/js/2.5f6b292f.chunk.js.LICENSE.txt": "/static/js/2.5f6b292f.chunk.js.LICENSE.txt",
     "static/media/landing.styles.css": "/static/media/background.a094a7ad.svg",
+    "static/media/fitness.svg": "/static/media/fitness.2cbf6783.svg",
     "static/media/font-awesome.css": "/static/media/fontawesome-webfont.fee66e71.woff",
     "static/media/headshot.jpg": "/static/media/headshot.1f1d3194.jpg",
     "static/media/icon.png": "/static/media/icon.c596bc6d.png",
-    "static/media/running-background.jpeg": "/static/media/running-background.a13c1b15.jpeg"
+    "static/media/runner.svg": "/static/media/runner.e436a015.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.4af47e90.js",
     "static/css/2.c59bb63f.chunk.css",
-    "static/js/2.858f7558.chunk.js",
-    "static/css/main.0fa1e270.chunk.css",
-    "static/js/main.1ffc96eb.chunk.js"
+    "static/js/2.5f6b292f.chunk.js",
+    "static/css/main.d799e488.chunk.css",
+    "static/js/main.87409b96.chunk.js"
   ]
 }
