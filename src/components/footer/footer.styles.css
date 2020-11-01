@@ -28,6 +28,7 @@ ul.Social-Icons {
     margin: 16px 8px;
     transition: all .2s ease-in-out;
     color: #F92524;
+    font-size: 24px !important;
 }
 
 :hover.icon {
@@ -39,7 +40,7 @@ ul.Social-Icons {
     visibility: hidden;
     font-family: Poppins;
     position: absolute;
-    font-size: 12px;
+    font-size: 14px;
     padding: 4px 8px;
     border-radius: 10%;
 }
@@ -55,7 +56,28 @@ ul.Social-Icons {
     background-color: white;
 }
 
-.copyright {
+.copyright, .email {
+    margin-left: 12px;
+    margin-right: 12px;
     text-align: center;
     color: #F92524;
+}
+
+.email {
+    margin-bottom: 0;
+}
+
+.email a:hover {
+    color: #F92524;
+}
+
+.copyright a {
+    color: #FF5857;
+}
+.copyright a:hover {
+    color: #FF5857;
+}
+
+.email:hover {
+    transform: scale(1.05);
 }

@@ -1,28 +1,51 @@
 .welcome-background {
     width: auto;
-    height: calc(100vh - 86px);
+    height: calc(70vh);
     object-fit: cover;
     transition: opacity 1s ease-in-out;
     display: flex;
     justify-content: center;
+    position: relative; 
+    right: -36px;
+}
+
+.welcome-background:hover{
+    transform: scale(1.02);
+    transition: transform 0.1s ease-in;
 }
 .welcome-info {
     padding: 12px 60px;
     margin: 24px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .welcome-intro {
     font-size: 24px;
     text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #F92524;
+}
+.paragraph {
+    margin-top: 12px;
 }
 
 .welcome-component {
+    display: flex;
     margin-bottom: 24px;
+    padding-top: 86px;
 }
 
 .learnMore {
     margin-top: 16px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.learnMore a:hover {
+    color: #F92524;
 }
 
 @keyframes fade {

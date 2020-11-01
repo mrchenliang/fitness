@@ -1,0 +1,109 @@
+.credibility-component {
+    display: flex;
+    margin-bottom: 24px;
+    padding-top: 86px;
+}
+.credibility-background {
+    width: auto;
+    height: calc(70vh);
+    object-fit: cover;
+    transition: opacity 1s ease-in-out;
+    display: flex;
+    justify-content: center;
+    position: relative; 
+    left: -36px;
+}
+
+.credibility-background:hover{
+    transform: scale(1.02);
+    transition: transform 0.1s ease-in;
+}
+
+.credibility-info {
+    padding: 12px 60px;
+    margin: 24px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.credibility-intro {
+    font-size: 24px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #F92524;
+}
+
+.credibility-list {
+    margin-top: 16px;
+}
+
+.credibility-list-item {
+    display: flex;
+    margin: 12px;
+}
+
+.credibility-icon {
+    padding: 16px;
+    font-size: 48px;
+    border-radius: 50%;
+    color: red;
+    border: 3px solid;
+    height: 100px;
+    width: 100px;
+}
+
+.credibility-icon:hover {
+    transform: scale(1.02);
+    transition: transform 0.1s ease-in;
+}
+
+.credibility-list-text {
+    text-align: left;
+    margin-left: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.credibility-list-title {
+    font-weight: 500;
+}
+
+.credibility-list-subtitle {
+    font-weight: 300;
+    color: grey;
+    font-size: 14px;
+}
+
+.joinToday {
+    margin-top: 16px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.joinToday a:hover {
+    color: #F92524;
+}
+
+ul
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+}
+
+@media only screen and (max-width: 815px) {
+    .credibility-background {
+        display: none;
+    }
+    .credibility-info {
+        padding: 12px 8px;
+        margin: 24px 12px;
+    }
+    .licensed {
+        width: 220px;
+    }
+}

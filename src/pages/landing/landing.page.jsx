@@ -13,7 +13,7 @@ const Landing = () => {
           <img src={icon} className="logo" alt="logo" />
           <div className = 'titles'>
             <span className = 'title'>FitBrit Fitness</span>
-            <span className = 'subtitle'>Coming Winter 2020</span>
+            <span className = 'subtitle'><a href="/home">Let's do this!</a></span>
           </div>
         </div>
         <div className = 'footer'>

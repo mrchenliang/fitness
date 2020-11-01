@@ -89,8 +89,8 @@ class PaypalButton extends React.Component {
         {showButtons && (
           <div>
             <div className = "paypal-description">
-              <h2>Item: {this.props.program}</h2>
-              <h2>Checkout Amount: ${this.props.amount}.00 CAD</h2>
+              <h4>Program: {this.props.program}</h4>
+              <h4>Checkout Amount: ${this.props.amount} CAD</h4>
             </div>
 
             <PayPalButton className = "paypal-checkout"
@@ -102,9 +102,8 @@ class PaypalButton extends React.Component {
 
         {paid && (
           <div className="main">
-            <h2>
-              Congrats! you payment has been confirmed! I am looking forward to working with you!
-            </h2>
+            <h4>Congrats! you payment has been confirmed!</h4>
+            <h4>I am looking forward to working with you!</h4>
           </div>
         )}
       </div>

@@ -1,10 +1,12 @@
 .about-component {
     padding: 12px 48px;
-    margin: 24px 0;
+    padding-top: 86px;
 }
 .about-intro {
     font-size: 24px;
     text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #F92524;
 }
 .about-info {
     display: flex;

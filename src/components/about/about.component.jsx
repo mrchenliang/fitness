@@ -6,7 +6,7 @@ import headshot from '../../assets/headshot.jpg';
 const About = () => {
     return (
     <div className='about-component' id = "about">
-            <div className = 'about-intro'>About Me</div>
+            <div className = 'about-intro'>About</div>
             <div className = 'about-info'>
                 <img src={headshot} className="headshot" alt="headshot" />
                 <div className = 'about-paragraghs'>

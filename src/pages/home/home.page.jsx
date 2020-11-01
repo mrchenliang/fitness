@@ -4,6 +4,7 @@ import './home.styles.css';
 // import 'font-awesome/css/font-awesome.css';
 import CustomNavbar from '../../components/navbar/navbar.component'
 import Welcome from '../../components/welcome/welcome.component'
+import Credibility from '../../components/credibility/credibility.component'
 import About from '../../components/about/about.component'
 import Program from '../../components/program/program.component'
 import Footer from '../../components/footer/footer.component';
@@ -14,32 +15,9 @@ const Home = () => {
     <div className="home-page">
       <CustomNavbar/>
       <Welcome/>
-      <About/>
+      <Credibility/>
       <Program/>
-        {/* <div className = 'home-intro'>
-          <div className = 'tagLine'>Build Your Body &</div>
-          <div className = 'intro'>Shape Yourself!</div>
-          <div className = 'intro-blog'>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore  architecto beatae vitae dicta sunt explicabo.</div>
-          <div><a className="button" href="/program">Join Today !<i className="fa fa-arrow-right"/></a></div>
-        </div>
-        <div className = 'home-story'>
-          <div className = 'tagLine'>Our Story</div>
-          <div className = 'intro-blog'>am, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta suntNemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. </div>
-          <ul className="menu__list">
-                <li className="menu__list-item">
-                  <a className="menu__link" href="/about">Community</a>
-                  <div>Trem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi  vitae dicta sunt explicabo sequi nesciunt. </div>
-                </li>
-                <li className="menu__list-item">
-                  <a className="menu__link" href="/program">Personalized Training</a>
-                  <div>Trem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi  vitae dicta sunt explicabo sequi nesciunt. </div>
-                </li>
-                <li className="menu__list-item">
-                  <a className="menu__link" href="/contact">Professional</a>
-                  <div>Trem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi  vitae dicta sunt explicabo sequi nesciunt. </div>
-                </li>
-            </ul>
-        </div> */}
+      <About/>
       <Footer/>
       </div>
     );
