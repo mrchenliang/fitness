@@ -19,6 +19,7 @@ const Home = () => {
       <Credibility/>
       <Program/>
       <About/>
+      <Subscribe/>
       <Footer/>
       </div>
     );
