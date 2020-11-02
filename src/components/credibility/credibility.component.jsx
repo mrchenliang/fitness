@@ -28,7 +28,7 @@ const Credibility = () => {
                         < RiShieldKeyholeLine className = "credibility-icon"/>
                         <div className = 'credibility-list-text'>
                             <div className = 'credibility-list-title'>Fully Insured</div>
-                            <div className = 'credibility-list-subtitle'>Liability Insurance For Personal Trainer</div>
+                            <div className = 'credibility-list-subtitle'>Complete Liability Coverage</div>
                         </div>
                     </div>
                     <div className="credibility-list-item">
