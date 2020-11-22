@@ -42,7 +42,7 @@ class Service extends Component {
                     <div className = 'service-cards'>
                         <Card className = "service-card" style={{ width: '16rem' }}>
                             <div className = "service-icon"><GiBiceps/></div>
-                            <Card.Title className = 'service-card-title'>Single Personal Training Package</Card.Title>
+                            <Card.Title className = 'service-card-title'>Personalized Training Session</Card.Title>
                             <Card.Body className = "service-card-body">
                                 <Card.Text>
                                     1 session, 30 minutes, online via Zoom
@@ -54,13 +54,13 @@ class Service extends Component {
                                     <Card.Text className = "service-price">
                                         CAN $29.99
                                     </Card.Text>
-                                    <Button variant="outline-dark" className = "service-button" onClick={() => this.showPaypalButtons({service: "Single Personal Training Package", amount: "29.99"})} >Get Started</Button>
+                                    <Button variant="outline-dark" className = "service-button" onClick={() => this.showPaypalButtons({service: "Personalized Training Session", amount: "29.99"})} >Get Started</Button>
                                 </div>
                             </Card.Body>
                         </Card>
                         <Card className = "service-card" style={{ width: '16rem' }}>
                             <div className = "service-icon"><GiMuscleUp/></div>
-                            <Card.Title className = 'service-card-title'>Multiple Personal Training Package</Card.Title>
+                            <Card.Title className = 'service-card-title'>Personalized Training Package</Card.Title>
                             <Card.Body className = "service-card-body">
                                 <Card.Text>
                                     5 sessions, 30 minutes each, online via Zoom
@@ -72,7 +72,7 @@ class Service extends Component {
                                     <Card.Text className = "service-price">
                                         CAN $99.99
                                     </Card.Text>
-                                    <Button variant="outline-dark" className = "service-button" onClick={() => this.showPaypalButtons({service: "Multiple Personal Training Package", amount: "99.99"})} >Get Started</Button>
+                                    <Button variant="outline-dark" className = "service-button" onClick={() => this.showPaypalButtons({service: "Personalized Training Package", amount: "99.99"})} >Get Started</Button>
                                 </div>
                             </Card.Body>
                         </Card>

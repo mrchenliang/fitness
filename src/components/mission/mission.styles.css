@@ -46,8 +46,15 @@
 
 @media only screen and (max-width: 815px) {
     .mission-background {
-        display: none;
+        width: 75%;
+        height: auto
     }
+
+    .mission-component {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
     .mission-info {
         padding: 12px 8px;
     }
