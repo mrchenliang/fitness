@@ -51,14 +51,14 @@
     }
 
     .mission-background {
-        width: auto;
+        width: 100%;
         height: 40vh;
         object-fit: cover;
         transition: opacity 1s ease-in-out;
         display: flex;
         justify-content: center;
         position: relative; 
-        right: -24px;
+        right: 0;
     }
 
     .mission-component {
