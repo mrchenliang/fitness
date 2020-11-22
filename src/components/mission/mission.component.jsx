@@ -7,7 +7,7 @@ const Mission = () => {
     return (
     <div className='mission-component' id = "mission">
         <div className = 'mission-background'>
-            <img src={mission} className="mission-background" alt="mission background" />
+            <img src={mission} className="mission-background-image" alt="mission background" />
         </div>
         <div className = 'mission-info'>
             <div className = 'mission-intro'>Mission</div>
