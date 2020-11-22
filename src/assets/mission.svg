@@ -1,51 +1,93 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="632" height="657" viewBox="0 0 632 657">
   <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        fill: #f92421;
+        stroke: #f92423;
+      }
+
+      .cls-4 {
+        fill: #ff9997;
+        stroke: #ff9b97;
+      }
+
+      .cls-5 {
+        fill: #ff9a96;
+        stroke: #ff9996;
+      }
+
+      .cls-6, .cls-7 {
+        fill: #fff;
+        font-family: Poppins-Medium, Poppins;
+        font-weight: 500;
+      }
+
+      .cls-6 {
+        font-size: 50px;
+      }
+
+      .cls-7 {
+        font-size: 24px;
+      }
+
+      .cls-8 {
+        stroke: none;
+      }
+    </style>
     <clipPath id="clip-path">
-      <path id="Path_1" data-name="Path 1" d="M0-256H432V0H0Z" fill="none"/>
+      <path id="Path_1" data-name="Path 1" class="cls-1" d="M0-256H432V0H0Z"/>
     </clipPath>
   </defs>
   <g id="Group_5" data-name="Group 5" transform="translate(-644 -184)">
-    <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(710 263)" fill="#f92421" stroke="#f92423" stroke-width="1">
-      <circle cx="250" cy="250" r="250" stroke="none"/>
-      <circle cx="250" cy="250" r="249.5" fill="none"/>
+    <g id="Ellipse_1" data-name="Ellipse 1" class="cls-3" transform="translate(710 263)">
+      <circle class="cls-8" cx="250" cy="250" r="250"/>
+      <circle class="cls-1" cx="250" cy="250" r="249.5"/>
     </g>
-    <g id="Ellipse_2" data-name="Ellipse 2" transform="translate(1076 312)" fill="#ff9997" stroke="#ff9b97" stroke-width="1">
-      <circle cx="100" cy="100" r="100" stroke="none"/>
-      <circle cx="100" cy="100" r="99.5" fill="none"/>
+    <g id="Ellipse_2" data-name="Ellipse 2" class="cls-4" transform="translate(1076 312)">
+      <circle class="cls-8" cx="100" cy="100" r="100"/>
+      <circle class="cls-1" cx="100" cy="100" r="99.5"/>
     </g>
-    <g id="Ellipse_3" data-name="Ellipse 3" transform="translate(1076 540)" fill="#ff9a96" stroke="#ff9996" stroke-width="1">
-      <circle cx="100" cy="100" r="100" stroke="none"/>
-      <circle cx="100" cy="100" r="99.5" fill="none"/>
+    <g id="Ellipse_3" data-name="Ellipse 3" class="cls-5" transform="translate(1076 540)">
+      <circle class="cls-8" cx="100" cy="100" r="100"/>
+      <circle class="cls-1" cx="100" cy="100" r="99.5"/>
     </g>
-    <g id="Ellipse_4" data-name="Ellipse 4" transform="translate(860 641)" fill="#ff9a96" stroke="#ff9996" stroke-width="1">
-      <circle cx="100" cy="100" r="100" stroke="none"/>
-      <circle cx="100" cy="100" r="99.5" fill="none"/>
+    <g id="Ellipse_4" data-name="Ellipse 4" class="cls-5" transform="translate(860 641)">
+      <circle class="cls-8" cx="100" cy="100" r="100"/>
+      <circle class="cls-1" cx="100" cy="100" r="99.5"/>
     </g>
-    <g id="Ellipse_5" data-name="Ellipse 5" transform="translate(860 184)" fill="#ff9a96" stroke="#ff9996" stroke-width="1">
-      <circle cx="100" cy="100" r="100" stroke="none"/>
-      <circle cx="100" cy="100" r="99.5" fill="none"/>
+    <g id="Ellipse_5" data-name="Ellipse 5" class="cls-5" transform="translate(860 184)">
+      <circle class="cls-8" cx="100" cy="100" r="100"/>
+      <circle class="cls-1" cx="100" cy="100" r="99.5"/>
     </g>
-    <g id="Ellipse_6" data-name="Ellipse 6" transform="translate(644 312)" fill="#ff9a96" stroke="#ff9996" stroke-width="1">
-      <circle cx="100" cy="100" r="100" stroke="none"/>
-      <circle cx="100" cy="100" r="99.5" fill="none"/>
+    <g id="Ellipse_6" data-name="Ellipse 6" class="cls-5" transform="translate(644 312)">
+      <circle class="cls-8" cx="100" cy="100" r="100"/>
+      <circle class="cls-1" cx="100" cy="100" r="99.5"/>
     </g>
-    <g id="Ellipse_7" data-name="Ellipse 7" transform="translate(644 540)" fill="#ff9a96" stroke="#ff9996" stroke-width="1">
-      <circle cx="100" cy="100" r="100" stroke="none"/>
-      <circle cx="100" cy="100" r="99.5" fill="none"/>
+    <g id="Ellipse_7" data-name="Ellipse 7" class="cls-5" transform="translate(644 540)">
+      <circle class="cls-8" cx="100" cy="100" r="100"/>
+      <circle class="cls-1" cx="100" cy="100" r="99.5"/>
     </g>
-    <text id="Core_Values" data-name="Core Values" transform="translate(808 522)" fill="#fff" font-size="50" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Core Values</tspan></text>
+    <text id="Core_Values" data-name="Core Values" class="cls-6" transform="translate(808 522)"><tspan x="0" y="0">Core Values</tspan></text>
     <text id="Evidence_Based_Practices" data-name="Evidence 
 Based 
-Practices" transform="translate(1176 386)" fill="#fff" font-size="24" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="-57.42" y="0">Evidence </tspan><tspan x="-40.764" y="35">Based </tspan><tspan x="-55.728" y="70">Practices</tspan></text>
+Practices" class="cls-7" transform="translate(1176 386)"><tspan x="-57.42" y="0">Evidence </tspan><tspan x="-40.764" y="35">Based </tspan><tspan x="-55.728" y="70">Practices</tspan></text>
     <text id="Continual_Self_Improvement" data-name="Continual
 Self
-Improvement" transform="translate(1176 614)" fill="#fff" font-size="24" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="-59.232" y="0">Continual</tspan><tspan x="-21.804" y="35">Self</tspan><tspan x="-82.476" y="70">Improvement</tspan></text>
-    <text id="Longevity" transform="translate(960 750)" fill="#fff" font-size="24" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="-57.84" y="0">Longevity</tspan></text>
-    <text id="Commitment" transform="translate(744 649)" fill="#fff" font-size="24" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="-81.624" y="0">Commitment</tspan></text>
+Improvement" class="cls-7" transform="translate(1176 614)"><tspan x="-59.232" y="0">Continual</tspan><tspan x="-21.804" y="35">Self</tspan><tspan x="-82.476" y="70">Improvement</tspan></text>
+    <text id="Longevity" class="cls-7" transform="translate(960 750)"><tspan x="-57.84" y="0">Longevity</tspan></text>
+    <text id="Commitment" class="cls-7" transform="translate(744 649)"><tspan x="-81.624" y="0">Commitment</tspan></text>
     <text id="Continual_Self_Improvement-2" data-name="Continual
 Self
-Improvement" transform="translate(1176 614)" fill="#fff" font-size="24" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="-59.232" y="0">Continual</tspan><tspan x="-21.804" y="35">Self</tspan><tspan x="-82.476" y="70">Improvement</tspan></text>
-    <text id="Health" transform="translate(960 293)" fill="#fff" font-size="24" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="-39.42" y="0">Health</tspan></text>
-    <text id="Sustainability" transform="translate(744 421)" fill="#fff" font-size="24" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="-82.224" y="0">Sustainability</tspan></text>
+Improvement" class="cls-7" transform="translate(1176 614)"><tspan x="-59.232" y="0">Continual</tspan><tspan x="-21.804" y="35">Self</tspan><tspan x="-82.476" y="70">Improvement</tspan></text>
+    <text id="Health" class="cls-7" transform="translate(960 293)"><tspan x="-39.42" y="0">Health</tspan></text>
+    <text id="Sustainability" class="cls-7" transform="translate(744 421)"><tspan x="-82.224" y="0">Sustainability</tspan></text>
   </g>
 </svg>
