@@ -1,0 +1,114 @@
+
+.service-component {
+    padding: 12px 48px;
+    padding-top: 86px;
+}
+.service-intro {
+    text-align: center;
+    font-size: 24px;
+    text-decoration: underline;
+    text-decoration-color: #F92524;
+}
+
+.service-paragraph {
+    text-align: center;
+    margin: 12px;
+}
+
+.service-cards {
+    display: flex;
+    justify-content: center;
+}
+
+.service-card-title {
+    margin-top: 16px;
+    min-height: 4em;
+}
+
+.service-card {
+    border-radius: 5px;
+    border: grey 2px solid;
+    margin: 16px;
+    padding: 16px;
+    text-align: center;
+    width: 20rem !important;
+}
+
+.service-card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.service-card:hover {
+    border: #F92524 2px solid;
+    cursor: pointer;
+}
+
+.service-icon {
+    color: grey;
+    font-size: 160px;
+    display: flex;
+    justify-content: center;
+}
+
+.service-description {
+    font-size: 14px;
+}
+
+.service-button {
+    margin: auto;
+    display: flex;
+}
+
+.service-price-button{
+    position: relative;
+    bottom: 0;
+    margin-bottom: 24px;
+}
+
+.service-price {
+    color: #F92524;
+    font-weight: 700;
+    text-align: center;
+}
+
+.service-price span {
+    color: grey;
+    text-decoration: line-through;
+    text-decoration-color: grey;
+    font-weight: 500;
+}
+
+.service-card:hover .service-icon{
+    color: #F92524;
+    transition: color 0.25s ease;
+}
+
+.btn-outline-dark:hover {
+    background-color: #F92524;
+    border: white 1px solid;
+
+}
+.close {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    margin-left: 800px;
+    float: none !important;
+}
+
+@media only screen and (max-width: 815px) {
+    .service-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .service-list-item {
+        justify-content: flex-start;
+    }
+
+    .close{ 
+        margin-left: 350px !important;
+    }
+}

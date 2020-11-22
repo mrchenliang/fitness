@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import scriptLoader from "react-async-script-loader";
-// import Car from '../../assets/running-background.jpeg';
+import './paypal.styles.css';
 import Spinner from "../spinner/spinner.component";
 
  const CLIENT = {
@@ -58,7 +58,7 @@ class PaypalButton extends React.Component {
     return actions.order.create({
       purchase_units: [
         {
-          description: +this.props.program,
+          description: +this.props.program || +this.props.service,
           amount: {
             value: this.props.amount,
             currency: 'CAD',
@@ -89,7 +89,12 @@ class PaypalButton extends React.Component {
         {showButtons && (
           <div>
             <div className = "paypal-description">
+              {this.props.program && 
               <h4>Program: {this.props.program}</h4>
+              }
+              {this.props.service && 
+              <h4>Service: {this.props.service}</h4>
+              }
               <h4>Checkout Amount: ${this.props.amount} CAD</h4>
             </div>
 

@@ -15,7 +15,7 @@ const Credibility = () => {
 
         <div className = 'credibility-info'>
             <div className = 'credibility-intro'>Credibility</div>
-                <div className = 'paragraph'>Build Your Body & Shape Yourself! At FitBrit Fitness, you are in good hands, we are: </div>
+                <div className = 'paragraph'>Build Your Body & Shape Yourself! At FitBrit Fitness, you are in good hands. We are: </div>
                 <div className="credibility-list">
                     <div className="credibility-list-item">
                         < AiOutlineTrophy className = "credibility-icon"/>

@@ -1,0 +1,54 @@
+.mission-background {
+    width: auto;
+    height: 50vh;
+    object-fit: cover;
+    transition: opacity 1s ease-in-out;
+    display: flex;
+    justify-content: center;
+    position: relative; 
+    right: -24px;
+}
+
+.mission-background:hover{
+    transform: scale(1.02);
+    transition: transform 0.1s ease-in;
+}
+.mission-info {
+    padding: 12px 60px;
+    margin: 24px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mission-intro {
+    font-size: 24px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #F92524;
+}
+.paragraph {
+    margin-top: 12px;
+}
+
+.mission-component {
+    display: flex;
+    margin-bottom: 24px;
+    padding-top: 86px;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+}
+
+@media only screen and (max-width: 815px) {
+    .mission-background {
+        display: none;
+    }
+    .mission-info {
+        padding: 12px 8px;
+    }
+}

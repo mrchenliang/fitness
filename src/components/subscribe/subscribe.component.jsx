@@ -41,7 +41,7 @@ const CustomForm = ({ status, message, onValidated }) => {
       return (
         <div className = 'subscribe-component'>
         <div className = 'subscribe-intro'>Subscribe</div>
-        <div className = 'subscribe-paragraph'>Subscribe to my monthly fitness tips & tricks and challenges!</div>
+        <div className = 'subscribe-paragraph'>Subscribe to stay in touch and receive updates on promotions, new services offered, and the latest health and fitness information!</div>
           <MailchimpSubscribe
             url={url}
             render={({ subscribe, status, message }) => (

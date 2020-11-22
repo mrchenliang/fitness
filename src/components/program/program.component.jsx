@@ -26,7 +26,7 @@ class Program extends Component {
         const { showPaypal } = this.state;
         if (showPaypal) {
             return (
-                <div>
+                <div className = "paypal-component">
                     <div className ="close" onClick={() => this.showPaypalButtons({program: null, amount: null})}>
                         <AiOutlineClose />
                     </div>
@@ -37,26 +37,29 @@ class Program extends Component {
             return (
                 <div className='program-component' id = "programs">
                     <div className = 'program-intro'>Programs</div>
-                    <div className = 'program-paragraph'>All Programs Include:</div>
+                    <div className = 'program-paragraph'>The Beginner, Pro and Elite Custom Programs Include:</div>
                     <div className = 'program-info'>
                         <div className="program-list">
                             <div className="program-list-item">
                                 <span role = 'img' aria-label = "detailed consultation">✅</span> <div className = 'program-list-title'>Detailed consultation</div>
                             </div>
                             <div className="program-list-item">
-                                <span role = 'img' aria-label = "individualized fitness plan">🏋️‍♀️</span> <div className = 'program-list-title'>Individualized fitness plan</div>
-                            </div>
-                            <div className="program-list-item">
-                                <span role = 'img' aria-label = "personal fitness assessment">💪</span> <div className = 'program-list-title'>Personal fitness assessment</div>
+                                <span role = 'img' aria-label = "fitness assessment">💪</span> <div className = 'program-list-title'>Fitness assessment</div>
                             </div>
                             <div className="program-list-item">
                                 <span role = 'img' aria-label = "body composite assessment">📋</span> <div className = 'program-list-title'>Body composition assessment</div>
                             </div>
                             <div className="program-list-item">
+                                <span role = 'img' aria-label = "individualized fitness plan">🏋️‍♀️</span> <div className = 'program-list-title'>Individualized fitness plan</div>
+                            </div>
+                            <div className="program-list-item">
                                 <span role = 'img' aria-label = "weekly progress check ins">📈</span> <div className = 'program-list-title'>Weekly progress check ins</div>
                             </div>
                             <div className="program-list-item">
-                                <span role = 'img' aria-label = "biweekly nutrition assessment and nutrition plan">🍔</span> <div className = 'program-list-title'>Biweekly nutrition assessment and nutrition plan</div>
+                                <span role = 'img' aria-label = "biweekly nutrition assessment and nutrition plan">🍔</span> <div className = 'program-list-title'>Nutrition plan and assessment</div>
+                            </div>
+                            <div className="program-list-item">
+                                <span role = 'img' aria-label = "fitbrit\'s favourites ecookbook">📚</span> <div className = 'program-list-title'>FitBrit's Favourites! eCookbook</div>
                             </div>
                             <div className="program-list-item">
                                 <span role = 'img' aria-label = "unlimited contact for support and guidance with me">🏆</span> <div className = 'program-list-title'>Unlimited contact for support and guidance with me</div>

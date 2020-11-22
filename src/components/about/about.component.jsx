@@ -11,19 +11,19 @@ const About = () => {
                 <img src={headshot} className="headshot" alt="headshot" />
                 <div className = 'about-paragraghs'>
                     <div className = 'paragraph'>
-                        My name is Brittany Arora, and I am the creator of FitBritFitness.ca. 
+                        My name is Brittany Arora, the creator of FitBritFitness.ca, and I am a Certified Personal Trainer. 
                     </div>
                     <div className = 'paragraph'>
-                        I am a Certified Personal Trainer and Certified Group Fitness Instructor with additional certifications in Nutrition. 
+                        To say my whole life revolves around health, fitness and nutrition would be an understatement. For years, all of my personal time was devoted to learning about health and fitness, and after many encouraging nudges from friends, I decided to take the next step and turn my hobbies into a career so I could better help others in their journey as well. 
                     </div>
                     <div className = 'paragraph'>
-                        To say my whole life revolves around health, fitness and nutrition would be an understatement. My focus is on using evidence based practices that are scientifically supported, up to date, and from credible sources to create the most effective and healthy plan for you. 
+                        My current personal fitness focus is mostly on running, weightlifting, cycling and boxing. I tend to cycle through sports each season to keep my exercise routine fresh and exciting.
                     </div>
                     <div className = 'paragraph'>
-                        I believe everyone will benefit from having a structured and individualized fitness plan to help guide their fitness journey, maximize results and keep their fitness routine exciting, no matter where their starting point is. I can't wait to see the things that we can accomplish together!
+                        I have been following a plant-based diet for over a decade now and am feeling healthier than ever. I support and encourage everyone to eat whichever diet fuels them best. I can be an educated resource on how to make positive impact on your diet and provide limitless new ideas, recipes, and meal prepping tips that will correlate with your personal goals. 
                     </div>
                     <div className = 'paragraph'>
-                        My current personal fitness focus is mostly on running, weight lifting, cycling and boxing. I tend to cycle through sports each season to keep my exercise routine fresh and exciting. 
+                        I believe everyone will benefit from having a structured and individualized fitness plan to help guide their fitness journey, maximize results, and keep their fitness routine exciting, no matter where their starting point is. I cannot wait to see what we can accomplish together!
                     </div>
                 </div>
             </div>
