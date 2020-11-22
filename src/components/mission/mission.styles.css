@@ -52,7 +52,7 @@
 
     .mission-background {
         width: auto;
-        height: 50vh;
+        height: 40vh;
         object-fit: cover;
         transition: opacity 1s ease-in-out;
         display: flex;
