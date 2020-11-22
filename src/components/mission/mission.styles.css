@@ -48,17 +48,17 @@
     .mission-background-image {
         width: 100%;
         height: auto;
+    }
+
+    .mission-background {
+        width: auto;
+        height: 50vh;
         object-fit: cover;
         transition: opacity 1s ease-in-out;
         display: flex;
         justify-content: center;
         position: relative; 
         right: -24px;
-    }
-
-    .mission-background {
-        width: 75%;
-        height: auto;
     }
 
     .mission-component {
