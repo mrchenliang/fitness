@@ -108,7 +108,7 @@ class Service extends Component {
                                     <Card.Text className = "service-price">
                                         CAN $19.99
                                     </Card.Text>
-                                    <Button variant="outline-dark" className = "service-button" onClick={() => this.showPaypalButtons({program: "FitBrit’s Favourites! eCookbook and Nutrition Guide", amount: "19.99"})} >Get Started</Button>
+                                    <Button variant="outline-dark" className = "service-button" onClick={() => this.showPaypalButtons({service: "FitBrit’s Favourites! eCookbook and Nutrition Guide", amount: "19.99"})} >Get Started</Button>
                                 </div>
                             </Card.Body>
                         </Card>
