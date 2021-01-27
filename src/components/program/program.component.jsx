@@ -78,10 +78,10 @@ class Program extends Component {
                                 1 month of personalized training.
                                 </Card.Text>
                                 <Card.Text className = "program-price">
-                                CAN $89.00 
+                                CAN $99.00 
                                 {/* <span>$89.00</span> */}
                                 </Card.Text>
-                                <Button variant="outline-dark" className = "program-button" onClick={() => this.showPaypalButtons({program: "Beginner", amount: "89.00"})} >Get Started</Button>
+                                <Button variant="outline-dark" className = "program-button" onClick={() => this.showPaypalButtons({program: "Beginner", amount: "99.00"})} >Get Started</Button>
                             </Card.Body>
                         </Card>
                         <Card className = "program-card" style={{ width: '16rem' }}>
@@ -94,10 +94,10 @@ class Program extends Component {
                                 3 months of personalized training.
                                 </Card.Text>
                                 <Card.Text className = "program-price">
-                                CAN $219.00
+                                CAN $269.00
                                 {/* <span>$219.00</span> */}
                                 </Card.Text>
-                                <Button variant="outline-dark" className = "program-button" onClick={() => this.showPaypalButtons({program: "Pro", amount: "219.00"})} >Get Started</Button>
+                                <Button variant="outline-dark" className = "program-button" onClick={() => this.showPaypalButtons({program: "Pro", amount: "269.00"})} >Get Started</Button>
                             </Card.Body>
                         </Card>
                         <Card className = "program-card" style={{ width: '16rem' }}>
@@ -110,10 +110,10 @@ class Program extends Component {
                                 6 months of personalized training.
                                 </Card.Text>
                                 <Card.Text className = "program-price">
-                                CAN $399.00 
+                                CAN $499.00 
                                 {/* <span>$399.00</span> */}
                                 </Card.Text>
-                                <Button variant="outline-dark" className = "program-button" onClick={() => this.showPaypalButtons({program: "Elite", amount: "399.00"})} >Get Started</Button>
+                                <Button variant="outline-dark" className = "program-button" onClick={() => this.showPaypalButtons({program: "Elite", amount: "499.00"})} >Get Started</Button>
                             </Card.Body>
                         </Card>
                     </div>
