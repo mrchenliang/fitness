@@ -69,7 +69,7 @@ class Program extends Component {
                         <div className = 'program-paragraph'>Ultimately, every plan is completely unique and customized towards each individual in accordance with specific <i><b>goals, health, and abilities!</b></i></div>
                     <div className = 'program-cards'>
                         <Card className = "program-card" style={{ width: '16rem' }}>
-                            <span className = "program-discount">-25%</span>
+                            {/* <span className = "program-discount">-25%</span> */}
                             <div className = "program-icon"><GiWeightLiftingDown/></div>
 
                             <Card.Body>
@@ -78,13 +78,14 @@ class Program extends Component {
                                 1 month of personalized training.
                                 </Card.Text>
                                 <Card.Text className = "program-price">
-                                CAN $66.75 <span>$89.00</span>
+                                CAN $66.75 
+                                {/* <span>$89.00</span> */}
                                 </Card.Text>
-                                <Button variant="outline-dark" className = "program-button" onClick={() => this.showPaypalButtons({program: "Beginner", amount: "66.75"})} >Get Started</Button>
+                                <Button variant="outline-dark" className = "program-button" onClick={() => this.showPaypalButtons({program: "Beginner", amount: "89.00"})} >Get Started</Button>
                             </Card.Body>
                         </Card>
                         <Card className = "program-card" style={{ width: '16rem' }}>
-                            <span className = "program-discount">-25%</span>
+                            {/* <span className = "program-discount">-25%</span> */}
                             <div className = "program-icon"><BiDumbbell/></div>
 
                             <Card.Body>
@@ -93,13 +94,14 @@ class Program extends Component {
                                 3 months of personalized training.
                                 </Card.Text>
                                 <Card.Text className = "program-price">
-                                CAN $164.25 <span>$219.00</span>
+                                CAN $164.25 
+                                {/* <span>$219.00</span> */}
                                 </Card.Text>
-                                <Button variant="outline-dark" className = "program-button" onClick={() => this.showPaypalButtons({program: "Pro", amount: "164.25"})} >Get Started</Button>
+                                <Button variant="outline-dark" className = "program-button" onClick={() => this.showPaypalButtons({program: "Pro", amount: "219.00"})} >Get Started</Button>
                             </Card.Body>
                         </Card>
                         <Card className = "program-card" style={{ width: '16rem' }}>
-                            <span className = "program-discount">-25%</span>
+                            {/* <span className = "program-discount">-25%</span> */}
                             <div className = "program-icon"><GiWeightLiftingUp/></div>
 
                             <Card.Body>
@@ -108,9 +110,10 @@ class Program extends Component {
                                 6 months of personalized training.
                                 </Card.Text>
                                 <Card.Text className = "program-price">
-                                CAN $299.25 <span>$399.00</span>
+                                CAN $299.25 
+                                {/* <span>$399.00</span> */}
                                 </Card.Text>
-                                <Button variant="outline-dark" className = "program-button" onClick={() => this.showPaypalButtons({program: "Elite", amount: "299.25"})} >Get Started</Button>
+                                <Button variant="outline-dark" className = "program-button" onClick={() => this.showPaypalButtons({program: "Elite", amount: "399.00"})} >Get Started</Button>
                             </Card.Body>
                         </Card>
                     </div>
