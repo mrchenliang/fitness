@@ -57,6 +57,7 @@
     border: 3px solid;
     height: 100px;
     width: 100px;
+    min-width: 100px;
 }
 
 .credibility-icon:hover {

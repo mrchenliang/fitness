@@ -6,6 +6,7 @@ import CustomNavbar from '../../components/navbar/navbar.component'
 import Welcome from '../../components/welcome/welcome.component'
 import Mission from '../../components/mission/mission.component'
 import Credibility from '../../components/credibility/credibility.component'
+import Challenge from '../../components/challenge/challenge.component'
 import Program from '../../components/program/program.component'
 import Service from '../../components/service/service.component'
 import About from '../../components/about/about.component'
@@ -20,12 +21,13 @@ const Home = () => {
       <Welcome/>
       <Mission/>
       <Credibility/>
+      <Challenge/>
       <Program/>
       <Service/>
       <About/>
       <Subscribe/>
       <Footer/>
-      </div>
+    </div>
     );
 };
 

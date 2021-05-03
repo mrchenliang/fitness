@@ -35,7 +35,7 @@ const Credibility = () => {
                         < AiOutlineFileProtect className = "credibility-icon licensed"/>
                         <div className = 'credibility-list-text'>
                             <div className = 'credibility-list-title'>Fully Licensed</div>
-                            <div className = 'credibility-list-subtitle'>Certified Personal Trainer NASM-CPT | Certified Group Fitness Instructor CFES-CPFI </div>
+                            <div className = 'credibility-list-subtitle'>Certified Personal Trainer, NASM-CPT | Certified Nutrition Coach, NASM-CNC | Corrective Exercise Specialist, NASM-CES</div>
                         </div>
                     </div>
                 </div>

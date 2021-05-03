@@ -1,0 +1,123 @@
+
+.program-component {
+    padding: 12px 48px;
+    padding-top: 86px;
+}
+.program-intro {
+    text-align: center;
+    font-size: 24px;
+    text-decoration: underline;
+    text-decoration-color: #F92524;
+}
+
+.program-paragraph {
+    text-align: center;
+    margin: 12px;
+}
+
+.program-info {
+    text-align: center;
+}
+
+.program-list {
+    text-align: left;
+    display: inline-block;
+}
+
+.program-list-item {
+    display: flex;
+    justify-content: center;
+}
+
+.program-list-title {
+    margin-left: 12px;
+}
+
+.program-cards {
+    display: flex;
+    justify-content: center;
+}
+
+.program-card {
+    border-radius: 5px;
+    border: grey 2px solid;
+    margin: 16px;
+    padding: 16px;
+    text-align: center;
+}
+.program-card:hover {
+    border: #F92524 2px solid;
+    cursor: pointer;
+}
+
+.program-icon {
+    color: grey;
+    font-size: 160px;
+    display: flex;
+    justify-content: center;
+}
+
+.program-discount {
+    position: relative;
+    top: -16px;
+    right: -186px;
+    background: #F92524;
+    font-weight: 700;
+    color: white;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    padding-top: 12px;
+}
+
+.program-button {
+    margin: auto;
+    display: flex;
+}
+
+.program-price {
+    color: #F92524;
+    font-weight: 700;
+    text-align: center;
+}
+
+.program-price span {
+    color: grey;
+    text-decoration: line-through;
+    text-decoration-color: grey;
+    font-weight: 500;
+}
+
+.program-card:hover .program-icon{
+    color: #F92524;
+    transition: color 0.25s ease;
+}
+
+.btn-outline-dark:hover {
+    background-color: #F92524;
+    border: white 1px solid;
+
+}
+.close {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    margin-left: 800px;
+    float: none !important;
+}
+
+@media only screen and (max-width: 815px) {
+    .program-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .program-list-item {
+        justify-content: flex-start;
+    }
+
+    .close{ 
+        margin-left: 350px !important;
+    }
+}
