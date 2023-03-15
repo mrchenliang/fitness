@@ -34,28 +34,36 @@ class Challenge extends Component {
         } else {
             return (
                 <div className='program-component' id = "challenge">
-                    <div className = 'program-intro'>FitBrit Fitness Summer Challenge</div>
-                    <div className = 'program-paragraph'>June 1, 2021 – July 31, 2021</div>
+                    <div className = 'program-intro'>The FitBrit Fitness 2023 Comback Challenge!</div>
+                    <div className = 'program-paragraph'>April 10th, 2023 – May 9th, 2023</div>
                     <div className = 'program-info'>
-                        <div className="program-list">
-                            <div className="program-list-item">
-                                <span role = 'img' aria-label = "fitness prize">🏆</span> <div className = 'program-list-title'>Prizes for Top 3 Transformations</div>
-                            </div>
-                            <div className="program-list-item">
-                                <span role = 'img' aria-label = "fitness plan">💪</span> <div className = 'program-list-title'>Home based, minimal equipment biweekly workout plan</div>
-                            </div>
-                            <div className="program-list-item">
-                                <span role = 'img' aria-label = "fitness exercise">🏋️‍‍</span> <div className = 'program-list-title'>Modifiable exercises to best suit your ability level</div>
-                            </div>
-                            <div className="program-list-item">
-                                <span role = 'img' aria-label = "fitness meal">🍔</span> <div className = 'program-list-title'>Meal guide and calorie + macro targets</div>
-                            </div>
-                            <div className="program-list-item">
-                                <span role = 'img' aria-label = "fitness check ins">📈</span> <div className = 'program-list-title'>Weekly progress check ins</div>
-                            </div>
-                            <div className="program-list-item">
-                                <span role = 'img' aria-label = "fitness check">✅</span> <div className = 'program-list-title'>Unlimited virtual support with me + exclusive Facebook group access</div>
-                            </div>
+                        <div className="program-table">
+                            <table>
+                                <tr>
+                                    <th>Feature</th>
+                                    <th>Details</th>
+                                </tr>
+                                <tr>
+                                    <td>Biweekly Workout Plans <span role = 'img' aria-label = "fitness plan">💪</span></td>
+                                    <td>Home or Gym based program + Beginner and Advanced exercise options + LIVE workouts streamed weekly + No equipment necessary workouts</td>
+                                </tr>
+                                <tr>
+                                    <td>Dietary Guidance <span role = 'img' aria-label = "fitness meal">🍔</span></td>
+                                    <td>Completely Optional + Choice of calorie goal, macro targets, and/or meal guide + Guest speakers to teach you more about health and wellness</td>
+                                </tr>
+                                <tr>
+                                    <td>Weekly Progress Check Ins <span role = 'img' aria-label = "fitness check ins">📈</span></td>
+                                    <td>Weekly email updates + thorough intake to get a better understanding of what motivates you and how I can better support your journey</td>
+                                </tr>
+                                <tr>
+                                    <td>Unlimited Virtual Support <span role = 'img' aria-label = "fitness check">✅</span></td>
+                                    <td>24/7 support + Option to schedule private video calls with me to discuss progress and assess form</td>
+                                </tr>
+                                <tr>
+                                    <td>Prizes! <span role = 'img' aria-label = "fitness prize">🏆</span></td>
+                                    <td>3 prize categories + Comeback Ghost option (completely anonymous athlete) + Non-competitive option</td>
+                                </tr>
+                            </table> 
                         </div>
                     </div>
                     <div className = 'program-cards'>
@@ -63,10 +71,10 @@ class Challenge extends Component {
                             <Card.Body>
                                 <Card.Title>FitBrit Fitness Summer Challenge</Card.Title>
                                 <Card.Text className = "program-price">
-                                CAN $149.99 
+                                CAN $165.00
                                 {/* <span>$89.00</span> */}
                                 </Card.Text>
-                                <Button variant="outline-dark" className = "program-button" onClick={() => this.showPaypalButtons({program: "FitBrit Fitness Summer Challenge", amount: "149.99"})} >Get Started</Button>
+                                <Button variant="outline-dark" className = "program-button" onClick={() => this.showPaypalButtons({program: "FitBrit Fitness Summer Challenge", amount: "165.00"})} >Get Started</Button>
                             </Card.Body>
                         </Card>
                     </div>

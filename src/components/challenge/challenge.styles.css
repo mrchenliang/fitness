@@ -19,9 +19,11 @@
     text-align: center;
 }
 
-.program-list {
+.program-table {
     text-align: left;
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .program-list-item {
@@ -106,6 +108,26 @@
     margin-left: 800px;
     float: none !important;
 }
+table {
+    border-collapse: collapse;
+    width: 50%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+    border: 1px solid #ddd;
+    width: 50%;
+}
+
+th {
+    background-color: #F92524;
+    color: white;
+}
+  
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
 
 @media only screen and (max-width: 815px) {
     .program-cards {
@@ -119,5 +141,8 @@
 
     .close{ 
         margin-left: 350px !important;
+    }
+    table {
+        width: 100%;
     }
 }
