@@ -35,7 +35,7 @@ class Challenge extends Component {
             return (
                 <div className='program-component' id = "challenge">
                     <div className = 'program-intro'>The FitBrit Fitness 2023 Comback Challenge!</div>
-                    <div className = 'program-paragraph'>April 10th, 2023 – May 9th, 2023</div>
+                    <div className = 'program-paragraph'>April 10th, 2023 – May 19th, 2023</div>
                     <div className = 'program-info'>
                         <div className="program-table">
                             <table>
