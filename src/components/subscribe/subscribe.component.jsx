@@ -5,7 +5,7 @@ import Button from 'react-bootstrap/Button';
 import MailchimpSubscribe from "react-mailchimp-subscribe"
 
 
-const CustomForm = ({ status, message, onValidated }) => {
+export const CustomForm = ({ status, message, onValidated }) => {
     let email, firstName, lastName;
     const submit = () =>
       email &&

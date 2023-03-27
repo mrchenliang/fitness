@@ -3,6 +3,7 @@ import React from 'react';
 import './home.styles.css';
 import 'font-awesome/css/font-awesome.css';
 import CustomNavbar from '../../components/navbar/navbar.component'
+import EmailModal from '../../components/modal/modal.component';
 import Welcome from '../../components/welcome/welcome.component'
 import Mission from '../../components/mission/mission.component'
 import Credibility from '../../components/credibility/credibility.component'
@@ -18,6 +19,7 @@ const Home = () => {
   return (
     <div className="home-page">
       <CustomNavbar/>
+      <EmailModal/>
       <Welcome/>
       <Mission/>
       <Credibility/>

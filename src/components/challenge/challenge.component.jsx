@@ -39,30 +39,34 @@ class Challenge extends Component {
                     <div className = 'program-info'>
                         <div className="program-table">
                             <table>
-                                <tr>
-                                    <th>Feature</th>
-                                    <th>Details</th>
-                                </tr>
-                                <tr>
-                                    <td>Biweekly Workout Plans <span role = 'img' aria-label = "fitness plan">💪</span></td>
-                                    <td>Home or Gym based program + Beginner and Advanced exercise options + LIVE workouts streamed weekly + No equipment necessary workouts</td>
-                                </tr>
-                                <tr>
-                                    <td>Dietary Guidance <span role = 'img' aria-label = "fitness meal">🍔</span></td>
-                                    <td>Completely Optional + Choice of calorie goal, macro targets, and/or meal guide + Guest speakers to teach you more about health and wellness</td>
-                                </tr>
-                                <tr>
-                                    <td>Weekly Progress Check Ins <span role = 'img' aria-label = "fitness check ins">📈</span></td>
-                                    <td>Weekly email updates + thorough intake to get a better understanding of what motivates you and how I can better support your journey</td>
-                                </tr>
-                                <tr>
-                                    <td>Unlimited Virtual Support <span role = 'img' aria-label = "fitness check">✅</span></td>
-                                    <td>24/7 support + Option to schedule private video calls with me to discuss progress and assess form</td>
-                                </tr>
-                                <tr>
-                                    <td>Prizes! <span role = 'img' aria-label = "fitness prize">🏆</span></td>
-                                    <td>3 prize categories + Comeback Ghost option (completely anonymous athlete) + Non-competitive option</td>
-                                </tr>
+                                <thead>
+                                    <tr>
+                                        <th>Feature</th>
+                                        <th>Details</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Biweekly Workout Plans <span role = 'img' aria-label = "fitness plan">💪</span></td>
+                                        <td>Home or Gym based program + Beginner and Advanced exercise options + LIVE workouts streamed weekly + No equipment necessary workouts</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Dietary Guidance <span role = 'img' aria-label = "fitness meal">🍔</span></td>
+                                        <td>Completely Optional + Choice of calorie goal, macro targets, and/or meal guide + Guest speakers to teach you more about health and wellness</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Weekly Progress Check Ins <span role = 'img' aria-label = "fitness check ins">📈</span></td>
+                                        <td>Weekly email updates + thorough intake to get a better understanding of what motivates you and how I can better support your journey</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Unlimited Virtual Support <span role = 'img' aria-label = "fitness check">✅</span></td>
+                                        <td>24/7 support + Option to schedule private video calls with me to discuss progress and assess form</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Prizes! <span role = 'img' aria-label = "fitness prize">🏆</span></td>
+                                        <td>3 prize categories + Comeback Ghost option (completely anonymous athlete) + Non-competitive option</td>
+                                    </tr>
+                                </tbody>
                             </table> 
                         </div>
                     </div>

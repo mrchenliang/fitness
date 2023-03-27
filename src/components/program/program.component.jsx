@@ -8,7 +8,6 @@ import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import PaypalButtons from '../../components/paypal/paypal.component'
 
-
 class Program extends Component {
 
     state = {
