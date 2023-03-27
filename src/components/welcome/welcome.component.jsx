@@ -2,6 +2,7 @@ import React from 'react';
 import './welcome.styles.css';
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import fitness from '../../assets/fitness.svg';
+import Button from 'react-bootstrap/Button';
 
 
 const Welcome = () => {
@@ -17,6 +18,9 @@ const Welcome = () => {
             </div>
             <div className = 'learnMore'>
                 <AnchorLink href="#credibility">Learn More</AnchorLink>
+            </div>
+            <div className = 'freeWorkouts'>
+                <Button variant="outline-dark" className = "freeWorkouts" href="mailto:brittany.arora@fitbritfitness.ca?subject=FitBrit%20Free%20Fitness&body=1%20am%20interested%20in%20checking%20out %20your%203%20FitBrit%20Free%20Fitness%20workouts.%20">FREE Workouts</Button>
             </div>
         </div>
         <div className = 'welcome-background'>
