@@ -27,7 +27,7 @@ function EmailModal() {
           <Modal.Title>Subscribe</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          Subscribe to stay in touch and receive updates on promotions, new services offered, and the latest health and fitness information!
+          Subscribe to receive a FREE workout trial, receive updates on promotions, new services offered, and the latest health and fitness information!
           <MailchimpSubscribe
             url={url}
             render={({ subscribe, status, message }) => (
