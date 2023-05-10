@@ -1,0 +1,1 @@
+export const challenge = 'Sprint Challenge';

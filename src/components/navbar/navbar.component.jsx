@@ -5,6 +5,7 @@ import Button from 'react-bootstrap/Button';
 import Nav from 'react-bootstrap/Nav';
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import icon from '../../assets/icon.png';
+import { challenge } from '../../types/types';
 
 
 const CustomNavbar = () => {
@@ -27,7 +28,7 @@ const CustomNavbar = () => {
                     <Nav.Link className = "navLink" ><AnchorLink href="#mission">Mission</AnchorLink></Nav.Link>
                     <Nav.Link className = "navLink" ><AnchorLink href="#credibility">Credibility</AnchorLink></Nav.Link>
                     <Nav.Link className = "navLink" ><AnchorLink href="#programs">Programs</AnchorLink></Nav.Link>
-                    <Nav.Link className = "navLink" ><AnchorLink href="#challenge">Sprint Challenge</AnchorLink></Nav.Link>
+                    <Nav.Link className = "navLink" ><AnchorLink href="#challenge">{challenge}</AnchorLink></Nav.Link>
                     <Nav.Link className = "navLink" ><AnchorLink href="#service">Services</AnchorLink></Nav.Link>
                     <Nav.Link className = "navLink" ><AnchorLink href="#about">About</AnchorLink></Nav.Link>
                     <Button className = "navButton" variant="light"><AnchorLink href="#contact">Contact</AnchorLink></Button>

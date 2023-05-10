@@ -5,6 +5,7 @@ import { AiOutlineClose } from 'react-icons/ai';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import PaypalButtons from '../paypal/paypal.component'
+import { challenge } from '../../types/types';
 
 
 class Challenge extends Component {
@@ -35,7 +36,7 @@ class Challenge extends Component {
         } else {
             return (
                 <div className='program-component' id = "challenge">
-                    <div className = 'program-intro'>The FitBrit Fitness 2023 Sprint Challenge!</div>
+                    <div className = 'program-intro'>The FitBrit Fitness 2023 {challenge}!</div>
                     <div className = 'program-paragraph'>4 Fast Weeks For Fast Progress</div>
                     <div className = 'program-paragraph'>May 29th, 2023 – June 25th, 2023</div>
                     <div className = 'program-info'>
@@ -103,7 +104,7 @@ class Challenge extends Component {
                     <div className = 'program-cards'>
                         <Card className = "program-card" style={{ width: '16rem' }}>
                             <Card.Body>
-                                <Card.Title>FitBrit Fitness Sprint Challenge</Card.Title>
+                                <Card.Title>FitBrit Fitness ${challenge}</Card.Title>
                                 <Card.Text className = "program-price">
                                 CAN $125.00
                                 {/* <span>$89.00</span> */}
