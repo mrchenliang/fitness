@@ -20,12 +20,13 @@ class Program extends Component {
         this.setState({ showPaypal: !this.state.showPaypal});
         this.setState({ program: program });
         this.setState({ amount: amount });
+        window.location = '#programs';
     };
     render() {
         const { showPaypal } = this.state;
         if (showPaypal) {
             return (
-                <div className = "paypal-component">
+                <div className = "paypal-component" id = 'programs'>
                     <div className ="close" onClick={() => this.showPaypalButtons({program: null, amount: null})}>
                         <AiOutlineClose />
                     </div>

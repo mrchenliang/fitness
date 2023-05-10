@@ -19,12 +19,13 @@ class Challenge extends Component {
         this.setState({ showPaypal: !this.state.showPaypal});
         this.setState({ program: program });
         this.setState({ amount: amount });
+        window.location = '#challenge';
     };
     render() {
         const { showPaypal } = this.state;
         if (showPaypal) {
             return (
-                <div className = "paypal-component">
+                <div className = "paypal-component" id = 'challenge'>
                     <div className ="close" onClick={() => this.showPaypalButtons({program: null, amount: null})}>
                         <AiOutlineClose />
                     </div>
@@ -34,8 +35,9 @@ class Challenge extends Component {
         } else {
             return (
                 <div className='program-component' id = "challenge">
-                    <div className = 'program-intro'>The FitBrit Fitness 2023 Comback Challenge!</div>
-                    <div className = 'program-paragraph'>April 10th, 2023 – May 19th, 2023</div>
+                    <div className = 'program-intro'>The FitBrit Fitness 2023 Sprint Challenge!</div>
+                    <div className = 'program-paragraph'>4 Fast Weeks For Fast Progress</div>
+                    <div className = 'program-paragraph'>May 29th, 2023 – June 25th, 2023</div>
                     <div className = 'program-info'>
                         <div className="program-table">
                             <table>
@@ -47,21 +49,49 @@ class Challenge extends Component {
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td>Biweekly Workout Plans <span role = 'img' aria-label = "fitness plan">💪</span></td>
-                                        <td>Home or Gym based program + Beginner and Advanced exercise options + LIVE workouts streamed weekly + No equipment necessary workouts</td>
+                                        <td>Weekly Workout Plans <span role = 'img' aria-label = "fitness plan">💪</span></td>
+                                        <td>
+                                            <ul className='program-list'>
+                                                <li>Home/Gym based workouts in 30 minutes or less</li>
+                                                <li>Exercise modifications for every ability level</li>
+                                                <li>LIVE group workouts</li>
+                                                <li>No equipment necessary workouts</li>
+                                            </ul>
+                                        </td>
                                     </tr>
                                     <tr>
-                                        <td>Dietary Guidance <span role = 'img' aria-label = "fitness meal">🍔</span></td>
-                                        <td>Completely Optional + Choice of calorie goal, macro targets, and/or meal guide + Guest speakers to teach you more about health and wellness</td>
+                                        <td>Fuel Plan <span role = 'img' aria-label = "fitness meal">🍔</span></td>
+                                        <td>
+                                            <ul className='program-list'>
+                                                <li>100% personalized to meet your individual goals</li>
+                                                <li>Flexible fueling program</li>
+                                                <li>Calorie goal, macro targets, and/or meal guide</li>
+                                            </ul>
+                                        </td>
                                     </tr>
                                     <tr>
-                                        <td>Weekly Progress Check Ins <span role = 'img' aria-label = "fitness check ins">📈</span></td>
-                                        <td>Weekly email updates + thorough intake to get a better understanding of what motivates you and how I can better support your journey</td>
-                                    </tr>
+                                        <td>Progress Guaranteed <span role = 'img' aria-label = "progress guaranteed">💯</span></td>
+                                        <td>
+                                            <ul className='program-list'>
+                                                <li>Evidence based programming for science-backed results or your money back</li>
+                                            </ul>
+                                        </td>                                    </tr>
                                     <tr>
                                         <td>Unlimited Virtual Support <span role = 'img' aria-label = "fitness check">✅</span></td>
-                                        <td>24/7 support + Option to schedule private video calls with me to discuss progress and assess form</td>
-                                    </tr>
+                                        <td>
+                                            <ul className='program-list'>
+                                                <li>Available for 24/7 support, accountability, and motivating</li>
+                                                <li>Available for private video calls to discuss progress / assess form</li>
+                                            </ul>
+                                        </td>                                    </tr>
+                                    <tr>
+                                        <td>Weekly Progress Check Ins <span role = 'img' aria-label = "fitness check ins">📈</span></td>
+                                        <td>
+                                            <ul className='program-list'>
+                                                <li>Weekly email updates</li>
+                                                <li>Thorough intake to learn how I can best support your journey</li>
+                                            </ul>
+                                        </td>                                       </tr>
                                     <tr>
                                         <td>Prizes! <span role = 'img' aria-label = "fitness prize">🏆</span></td>
                                         <td>3 prize categories + Comeback Ghost option (completely anonymous athlete) + Non-competitive option</td>
@@ -73,12 +103,12 @@ class Challenge extends Component {
                     <div className = 'program-cards'>
                         <Card className = "program-card" style={{ width: '16rem' }}>
                             <Card.Body>
-                                <Card.Title>FitBrit Fitness Summer Challenge</Card.Title>
+                                <Card.Title>FitBrit Fitness Sprint Challenge</Card.Title>
                                 <Card.Text className = "program-price">
-                                CAN $165.00
+                                CAN $125.00
                                 {/* <span>$89.00</span> */}
                                 </Card.Text>
-                                <Button variant="outline-dark" className = "program-button" onClick={() => this.showPaypalButtons({program: "FitBrit Fitness Summer Challenge", amount: "165.00"})} >Get Started</Button>
+                                <Button variant="outline-dark" className = "program-button" onClick={() => this.showPaypalButtons({program: "FitBrit Fitness Summer Challenge", amount: "125.00"})} >Get Started</Button>
                             </Card.Body>
                         </Card>
                     </div>

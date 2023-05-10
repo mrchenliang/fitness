@@ -22,12 +22,13 @@ class Service extends Component {
         this.setState({ showPaypal: !this.state.showPaypal});
         this.setState({ service: service });
         this.setState({ amount: amount });
+        window.location = '#service';
     };
     render() {
         const { showPaypal } = this.state;
         if (showPaypal) {
             return (
-                <div className = "paypal-component">
+                <div className = "paypal-component" id = 'service'>
                     <div className ="close" onClick={() => this.showPaypalButtons({service: null, amount: null})}>
                         <AiOutlineClose />
                     </div>

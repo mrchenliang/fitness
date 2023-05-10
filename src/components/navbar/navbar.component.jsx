@@ -27,6 +27,7 @@ const CustomNavbar = () => {
                     <Nav.Link className = "navLink" ><AnchorLink href="#mission">Mission</AnchorLink></Nav.Link>
                     <Nav.Link className = "navLink" ><AnchorLink href="#credibility">Credibility</AnchorLink></Nav.Link>
                     <Nav.Link className = "navLink" ><AnchorLink href="#programs">Programs</AnchorLink></Nav.Link>
+                    <Nav.Link className = "navLink" ><AnchorLink href="#challenge">Sprint Challenge</AnchorLink></Nav.Link>
                     <Nav.Link className = "navLink" ><AnchorLink href="#service">Services</AnchorLink></Nav.Link>
                     <Nav.Link className = "navLink" ><AnchorLink href="#about">About</AnchorLink></Nav.Link>
                     <Button className = "navButton" variant="light"><AnchorLink href="#contact">Contact</AnchorLink></Button>

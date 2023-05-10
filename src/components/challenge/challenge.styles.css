@@ -118,6 +118,17 @@ th, td {
     padding: 8px;
     border: 1px solid #ddd;
     width: 50%;
+    margin: 8px;
+}
+
+td > .program-list {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+  
+td > .program-list li:before {
+    content: "+ ";
 }
 
 th {

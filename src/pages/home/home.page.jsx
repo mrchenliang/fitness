@@ -23,8 +23,8 @@ const Home = () => {
       <Welcome/>
       <Mission/>
       <Credibility/>
-      <Challenge/>
       <Program/>
+      <Challenge/>
       <Service/>
       <About/>
       <Subscribe/>
