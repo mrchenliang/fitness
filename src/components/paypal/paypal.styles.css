@@ -2,3 +2,9 @@
     margin-top: 100px;
     padding-top: 250px;
 }
+
+.paypal-component >.main {
+    display: flex;
+    justify-content: center;
+    
+}
